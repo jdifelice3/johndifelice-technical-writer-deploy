@@ -1,0 +1,74 @@
+/* Dark background and light text */
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  min-width: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #4fa3ff;
+}
+a:hover {
+  color: #82c7ff;
+}
+
+/* Sidebar */
+.wy-nav-side {
+  background-color: #252526;
+}
+.wy-side-nav-search {
+  background-color: #333333;
+}
+.wy-menu-vertical a {
+  color: #cccccc;
+}
+.wy-menu-vertical a:hover {
+  background-color: #3a3d41;
+  color: #ffffff;
+}
+
+/* Active sidebar item */
+.wy-menu-vertical li.current > a {
+  background-color: #007acc;
+  color: #ffffff;
+}
+
+/* Content area */
+.rst-content {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Code blocks */
+code, pre {
+  background-color: #2d2d2d;
+  color: #dcdcaa;
+}
+
+/* Tables */
+table {
+  background-color: #252526;
+  color: #d4d4d4;
+}
+th {
+  background-color: #333333;
+  color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+/* Horizontal rule */
+hr {
+  border-color: #444444;
+}
+
+.wy-nav-content {
+  background-color: #1e1e1e;
+}

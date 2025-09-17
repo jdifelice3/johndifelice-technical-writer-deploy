@@ -1,0 +1,87 @@
+/* docs/stylesheets/dark.css */
+
+/* Hint browsers and form controls that we’re in dark mode */
+:root { color-scheme: dark; }
+
+/* Page chrome */
+html, body, .wy-body-for-nav, .wy-nav-content-wrap, .wy-nav-content {
+  background: #1e1e1e !important;
+  color: #d4d4d4 !important;
+}
+
+/* Left sidebar & search */
+.wy-nav-side { background: #252526 !important; }
+.wy-side-nav-search { background: #2d2d2d !important; }
+.wy-side-nav-search input[type="text"] {
+  background: #1f1f1f !important;
+  color: #e6e6e6 !important;
+  border-color: #3a3a3a !important;
+}
+
+/* Nav links */
+.wy-menu-vertical a {
+  color: #cfcfcf !important;
+}
+.wy-menu-vertical a:hover {
+  background: #3a3d41 !important;
+  color: #ffffff !important;
+}
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.toctree-l1.current > a {
+  background: #007acc !important;
+  color: #ffffff !important;
+}
+
+/* Main content area */
+.rst-content { color: #d4d4d4 !important; }
+.rst-content a { color: #4fa3ff !important; }
+.rst-content a:hover { color: #82c7ff !important; }
+
+/* Headings */
+.rst-content h1, .rst-content h2, .rst-content h3,
+.rst-content h4, .rst-content h5, .rst-content h6 {
+  color: #ffffff !important;
+}
+
+/* Code blocks & inline code */
+.rst-content code, code, pre {
+  background: #2d2d2d !important;
+  color: #dcdcaa !important;
+  border-color: #3a3a3a !important;
+}
+
+/* Admonitions (notes, warnings, etc.) */
+.admonition, .rst-content .admonition {
+  background: #242424 !important;
+  border-color: #3a3a3a !important;
+  color: #dddddd !important;
+}
+.admonition .admonition-title {
+  background: #303030 !important;
+  color: #ffffff !important;
+}
+
+/* Tables */
+.rst-content table.docutils,
+.wy-table-bordered-all,
+.wy-table-responsive table {
+  background: #252526 !important;
+  color: #d4d4d4 !important;
+  border-color: #3a3a3a !important;
+}
+.rst-content th {
+  background: #333333 !important;
+  color: #ffffff !important;
+}
+.rst-content tr:nth-child(even) {
+  background: #2a2a2a !important;
+}
+
+/* Horizontal rules */
+.rst-content hr { border-color: #444444 !important; }
+
+/* Search results page */
+#search-results .search li a {
+  color: #a0c8ff !important;
+}
+
