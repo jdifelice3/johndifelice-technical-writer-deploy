@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/1_installation/">
+        <link rel="canonical" href="https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/3_environment%20variables/">
       
       
-        <link rel="prev" href="../../Client%20%28React%29/1_Installation/">
+        <link rel="prev" href="../2_ThirdPartyComponents/">
       
       
-        <link rel="next" href="../2_environment%20variables/">
+        <link rel="next" href="../../../User%20Guide/introduction/">
       
       
       <link rel="icon" href="../../../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Installation - John DiFelice - Documentation Portfolio</title>
+        <title>Environment Variables - John DiFelice - Documentation Portfolio</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation" class="md-skip">
+        <a href="#environment-variables" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation
+              Environment Variables
             
           </span>
         </div>
@@ -604,6 +604,190 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/2_ThirdPartyComponents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Third Party Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/3.5_Styling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Styling
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/3_Component%20Model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Component Model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/4_Configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/5_Constants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/6_CustomHooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Custom Hooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/7_Pages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Client%20%28React%29/8_Services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -659,6 +843,52 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_Installation%20copy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_ThirdPartyComponents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Third Party Packages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -676,36 +906,13 @@
   
   
   <span class="md-ellipsis">
-    Installation
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2_environment%20variables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
     Environment Variables
     
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -873,7 +1080,46 @@
   
 
 
-<h1 id="installation">Installation</h1>
+<h1 id="environment-variables">Environment Variables</h1>
+<p>Environment variables are in the <code>.env</code> file. Here are the contents of the file as of this writing.
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><span class="nx">NODE_ENV</span><span class="o">=</span><span class="nx">development</span>
+</span><span id="__span-0-2">
+</span><span id="__span-0-3"><span class="err">#</span><span class="w"> </span><span class="nx">ZOHO</span><span class="w"> </span><span class="nx">CREDENTIALS</span>
+</span><span id="__span-0-4"><span class="nx">ZOHO_API_DOMAIN</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//www.zohoapis.com</span>
+</span><span id="__span-0-5"><span class="nx">ZOHO_CLIENT_ID</span><span class="o">=***********************************</span>
+</span><span id="__span-0-6"><span class="nx">ZOHO_CLIENT_SECRET</span><span class="o">=******************************************</span>
+</span><span id="__span-0-7">
+</span><span id="__span-0-8"><span class="err">#</span><span class="w"> </span><span class="nx">ZOHO</span><span class="w"> </span><span class="nx">API</span><span class="w"> </span><span class="nx">REFRESH</span><span class="w"> </span><span class="nx">TOKENS</span>
+</span><span id="__span-0-9"><span class="nx">ZOHO_CAMPAIGN_CONTACTS_ALL_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.1</span><span class="nx">c6eb7842bd6ec76191ac303e1a80d78</span><span class="p">.</span><span class="nx">a0341ed0f270955d0e048d642a590b6f</span><span class="w">    </span>
+</span><span id="__span-0-10"><span class="nx">ZOHO_CAMPAIGN_CONTACTS_UPDATE_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.75</span><span class="nx">d93603bc98f17da0ba1fd840ecc970</span><span class="mf">.0</span><span class="nx">aae803d410a8aa8f4f08b64b09bd32d</span>
+</span><span id="__span-0-11"><span class="nx">ZOHO_RECRUIT_CLIENT_ALL_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.e32</span><span class="nx">dec05284b83cab62cb42f26db4397</span><span class="mf">.4</span><span class="nx">f857c8a0bb566b88968eae8421b7177</span>
+</span><span id="__span-0-12"><span class="nx">ZOHO_RECRUIT_MODULES_ALL_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.1508</span><span class="nx">ce9d03711cc325e5bf8865798d42</span><span class="mf">.6428e64417</span><span class="nx">fc86a49e8a2640131721b7</span>
+</span><span id="__span-0-13"><span class="nx">ZOHO_RECRUIT_SETTINGS_ALL_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.</span><span class="nx">a91ec564394dabdf2eee9e0bcec35d31</span><span class="p">.</span><span class="nx">cf52220eb57462c1b251773463970058</span>
+</span><span id="__span-0-14"><span class="nx">ZOHO_RECRUIT_SEARCH_READ_REFRESH_TOKEN</span><span class="o">=</span><span class="mf">1000.765</span><span class="nx">ed28b7d174beb71614ee941669553</span><span class="mf">.2</span><span class="nx">c04c6cbdd730bb1355b46f84826f9e6</span>
+</span><span id="__span-0-15">
+</span><span id="__span-0-16"><span class="err">#</span><span class="w"> </span><span class="nx">ZOHO</span><span class="w"> </span><span class="nx">API</span><span class="w"> </span><span class="nx">ENDPOINTS</span>
+</span><span id="__span-0-17"><span class="nx">ZOHO_API_ACCESS_TOKEN_URL</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//accounts.zoho.com/oauth/v2/token</span>
+</span><span id="__span-0-18"><span class="nx">ZOHO_API_ASSOCIATE_CONTACT_TAG_URL</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//campaigns.zoho.com/api/v1.1/tag/associate</span>
+</span><span id="__span-0-19"><span class="nx">ZOHO_API_BASE_URL</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//www.zohoapis.com/crm/v2</span>
+</span><span id="__span-0-20"><span class="nx">ZOHO_API_GET_CLIENTS_URL</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//recruit.zoho.com/recruit/v2/Clients</span>
+</span><span id="__span-0-21"><span class="nx">ZOHO_API_GET_CONTACTS</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//recruit.zoho.com/recruit/v2/Contacts</span>
+</span><span id="__span-0-22"><span class="nx">ZOHO_API_TOKEN_REDIRCT_URL</span><span class="o">=</span><span class="nx">http</span><span class="o">:</span><span class="c1">//localhost:8080/oauth/callback</span>
+</span><span id="__span-0-23"><span class="nx">ZOHO_API_GET_CONTACTS_SEARCH_URL</span><span class="o">=</span><span class="nx">https</span><span class="o">:</span><span class="c1">//recruit.zoho.com/recruit/v2/Contacts/search</span>
+</span><span id="__span-0-24">
+</span><span id="__span-0-25"><span class="err">#</span><span class="w"> </span><span class="nx">SQL</span><span class="w"> </span><span class="nx">SERVER</span><span class="w"> </span><span class="nx">CONFIG</span>
+</span><span id="__span-0-26"><span class="nx">DB_CONFIG</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;server&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span><span class="s2">&quot;port&quot;</span><span class="o">:</span><span class="w"> </span><span class="mf">1433</span><span class="p">,</span><span class="s2">&quot;user&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;NewAdminLogin&quot;</span><span class="p">,</span><span class="s2">&quot;password&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;StrongPassword123!&quot;</span><span class="p">,</span><span class="s2">&quot;database&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Zoho&quot;</span><span class="p">,</span><span class="s2">&quot;options&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;encrypt&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="s2">&quot;trustServerCertificate&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">}}</span>
+</span><span id="__span-0-27"><span class="nx">DB_CLIENT_CSV_FILENAME</span><span class="o">=</span><span class="nx">clients</span><span class="p">.</span><span class="nx">csv</span>
+</span><span id="__span-0-28"><span class="nx">DB_CONTACT_CSV_FILENAME</span><span class="o">=</span><span class="nx">contacts</span><span class="p">.</span><span class="nx">csv</span>
+</span><span id="__span-0-29">
+</span><span id="__span-0-30"><span class="err">#</span><span class="w"> </span><span class="nx">SERVER</span><span class="w"> </span><span class="nx">CONFIG</span>
+</span><span id="__span-0-31"><span class="nx">DB_SERVER_PORT</span><span class="o">=</span><span class="mf">5000</span>
+</span><span id="__span-0-32"><span class="nx">DB_WEB_SERVICE_URL</span><span class="o">=</span><span class="nx">http</span><span class="o">:</span><span class="c1">//localhost:5000</span>
+</span><span id="__span-0-33"><span class="nx">WEB_SERVER_HOST</span><span class="o">=</span><span class="nx">localhost</span>
+</span><span id="__span-0-34"><span class="nx">WEB_SERVER_PORT</span><span class="o">=</span><span class="mf">5173</span>
+</span><span id="__span-0-35"><span class="nx">WEB_SERVER_URL</span><span class="o">=</span><span class="nx">http</span><span class="o">:</span><span class="c1">//localhost:5173</span>
+</span></code></pre></div></p>
+<p>Variables defined in this file are accessible with the <code>process.env</code> object in the <code>dotenv</code> package.</p>
+<p>NOTE: the <code>.env</code> file should never be checked into git or any other source control because it contains client ids and client secrets.</p>
 
 
 

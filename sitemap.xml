@@ -2,46 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/jdifelice3/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/about/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/support/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/description/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/1_introduction/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/2_source%20code%20editor/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/3_project%20structure/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/1_Installation/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
-         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/1_installation/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/2_ThirdPartyComponents/</loc>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
-         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/2_environment%20variables/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/3.5_Styling/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/3_Component%20Model/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/4_Configuration/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/5_Constants/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/6_CustomHooks/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/7_Pages/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Client%20%28React%29/8_Services/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/1_Installation%20copy/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/2_ThirdPartyComponents/</loc>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/jdifelice3/CRM%20Example/guides/Developer%20Guide/Server%20%28Node.js%29/3_environment%20variables/</loc>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://github.com/jdifelice3/CRM%20Example/guides/User%20Guide/introduction/</loc>
-         <lastmod>2025-09-16</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
 </urlset>
