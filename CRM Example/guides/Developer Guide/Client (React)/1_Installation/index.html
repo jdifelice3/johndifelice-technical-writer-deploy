@@ -1256,7 +1256,7 @@ Some of the components in ZohoDataExplorer are picky about the version of Node.j
 </tr>
 </tbody>
 </table>
-<p>If you do not have npm installed, install it by following the instructions on the nodejs.org site for your operating system. Installing Node.js will also install npm.</p>
+<p>If you do not have npm installed, install it by following the instructions on the <code>nodejs.org</code> site for your operating system. Installing Node.js will also install npm.</p>
 <p><a href="https://nodejs.org/en/download/">Install Node.js</a></p>
 <p>Once Node.js is installed, open a bash or VS Code terminal and change the directory to where you cloned the ZohoDataExplorer source code.</p>
 <p>Run the following command:
@@ -1309,20 +1309,22 @@ Some of the components in ZohoDataExplorer are picky about the version of Node.j
 </span><span id="__span-2-43"><span class="w">  </span><span class="nt">&quot;packageManager&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748&quot;</span>
 </span><span id="__span-2-44"><span class="p">}</span>
 </span></code></pre></div>
-<p>If you ever have problems with dependencies, you can simply delete the <code>node_modules</code> folder and rerun <code>npm install</code>.</p>
-<p>Note that there are two elements with dependency information: <code>"dependencies"</code> and <code>"devDependencies"</code>. Packages in the 
+<p>If problems arise with dependencies, simply delete the <code>node_modules</code> folder and rerun <code>npm install</code>.</p>
+<blockquote>
+<p>Note: there are two elements with dependency information: <code>"dependencies"</code> and <code>"devDependencies"</code>. Packages in the 
 <code>"dependencies"</code> element are those required to run the app. The ones in the <code>"devDependencies"</code> are only required for 
 development and will not be deployed to higher environments like Production. <code>"devDepencies"</code> are install using the -D option, <em>e.g.</em>:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1">npm<span class="w"> </span>install<span class="w"> </span>-D<span class="w"> </span>eslint
 </span></code></pre></div>
 <br></p>
+</blockquote>
 <h1 id="vite-build-tool">Vite Build Tool</h1>
 <p>The ZohoDataExplorer development environment uses Vite instead of the more traditional package bundler, Webpack. You can see it
 in the "scripts" element of the package.json file:
 <div class="language-json highlight"><pre><span></span><code><span id="__span-4-1"><span class="nt">&quot;dev&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vite --config vite.config.js --mode=development&quot;</span><span class="p">,</span>
 </span></code></pre></div>
 The command <code>npm run dev</code> runs Vite.</p>
-<p>Vite made full-stack debugging much easier, which is a big reason it was chosen over Webpack.</p>
+<p>Vite made full-stack debugging much easier, which is one of the reasons it was chosen over Webpack.</p>
 <p>Vite requires a config file, <code>vite.config.js</code>, which was downloaded when the project was cloned.
 <br></p>
 <h1 id="full-stack-debugging">Full-Stack Debugging</h1>

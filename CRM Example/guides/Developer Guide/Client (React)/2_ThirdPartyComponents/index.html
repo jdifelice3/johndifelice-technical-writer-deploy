@@ -1235,9 +1235,9 @@
 <p>AG Grid is available in two versions: Community &amp; Enterprise.</p>
 <dl>
 <dt><code>ag-grid-community</code></dt>
-<dd>is free, available under the MIT license, and comes with all of the core features expected from a React Data Grid, including Sorting, Filtering, Pagination, Editing, Custom Components, Theming and more.</dd>
+<dd>is free, available under the MIT license, and comes with features including Sorting, Filtering, Pagination, Editing, Custom Components, and Theming.</dd>
 <dt><code>ag-grid-enterprise</code></dt>
-<dd>is available under a commercial license and comes with advanced features, like Integrated Charting, Row Grouping, Aggregation, Pivoting, Master/Detail, Server-side Row Model, and Exporting in addition to dedicated support from our Engineering team.</dd>
+<dd>is available under a commercial license and comes with advanced features, like Integrated Charting, Row Grouping, Aggregation, Pivoting, Master/Detail, Server-side Row Model, and Exporting in addition to dedicated support from the AG-React-Grid Engineering team.</dd>
 </dl>
 <p>For ZohoDataExplorer, both Community and Enterprise are required. The Server-Side Row Model and Master/Detail row features are only
 available in the Enterprise Edition:</p>
@@ -1247,7 +1247,7 @@ available in the Enterprise Edition:</p>
 </span><span id="__span-0-4"><span class="nt">&quot;ag-grid-react&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;^28.2.1&quot;</span><span class="p">,</span>
 </span><span id="__span-0-5"><span class="err">...</span><span class="p">}</span>
 </span></code></pre></div>
-<em>e.g.</em> in the <code>Client.jsx</code> page.
+<em>e.g.</em> In the <code>Client.jsx</code> page, note the <code>masterDetail</code>, <code>serverSideStoreType</code>, <code>detailCellRendererParams</code>, <code>isRowMaster</code>, and <code>detailRowHeight</code> elements.
 <div class="language-js highlight"><pre><span></span><code><span id="__span-1-1"><span class="o">&lt;</span><span class="nx">AgGridReact</span>
 </span><span id="__span-1-2"><span class="w">           </span><span class="nx">ref</span><span class="o">=</span><span class="p">{</span><span class="nx">gridRef</span><span class="p">}</span>
 </span><span id="__span-1-3"><span class="w">           </span><span class="nx">columnDefs</span><span class="o">=</span><span class="p">{</span><span class="nx">columnDefs</span><span class="p">}</span>
@@ -1282,8 +1282,8 @@ available in the Enterprise Edition:</p>
 </span></code></pre></div></p>
 <h2 id="querybuilder">QueryBuilder</h2>
 <p><a href="https://www.npmjs.com/package/react-querybuilder">react-querybuilder (npmjs.com)</a></p>
-<p><strong>React Query Builder</strong> is a fully customizable query builder component for React, along with a collection of utility functions for importing from, and exporting to, various query languages like SQL, MongoDB, and more.</p>
-<p><em>e.g.</em> in the <code>Client.jsx</code> page.
+<p><strong>React Query Builder</strong> is a fully customizable query builder component for React, along with a collection of utility functions for importing from, and exporting to, various query languages like SQL, MongoDB, and others.</p>
+<p><em>e.g.</em> In the <code>Client.jsx</code> page.
 <div class="language-js highlight"><pre><span></span><code><span id="__span-2-1"><span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
 </span><span id="__span-2-2"><span class="w">    </span><span class="o">&lt;</span><span class="nx">QueryBuilder</span>
 </span><span id="__span-2-3"><span class="w">        </span><span class="nx">fields</span><span class="o">=</span><span class="p">{</span><span class="nx">clientsQueryFields</span><span class="p">}</span>
@@ -1297,8 +1297,10 @@ available in the Enterprise Edition:</p>
 </span><span id="__span-2-11"><span class="w">    </span><span class="o">&lt;</span><span class="nx">button</span><span class="w"> </span><span class="nx">className</span><span class="o">=</span><span class="s2">&quot;advancedFilter&quot;</span><span class="w"> </span><span class="nx">onClick</span><span class="o">=</span><span class="p">{()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">gridRef</span><span class="p">.</span><span class="nx">current</span><span class="p">.</span><span class="nx">api</span><span class="p">.</span><span class="nx">purgeServerSideCache</span><span class="p">()}</span><span class="o">&gt;</span><span class="nx">Apply</span><span class="w"> </span><span class="nx">Filter</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
 </span><span id="__span-2-12"><span class="o">&lt;</span><span class="err">/div&gt;</span>
 </span></code></pre></div></p>
+<p>See <a href="../../../User%20Guide/introduction#client-searches">User Guide &gt; Introduction &gt; Client Searches</a></p>
 <h2 id="react-toastify">React Toastify</h2>
 <p>Toast notifications, or toast messages, are unobtrusive, in-app pop-up messages that provide users with feedback about an operation. Toasts usually disappear after a given time; therefore, removing them doesn’t require any user action. However, you can also close a toast notification before the expiration of the timeout.</p>
+<p>See <a href="../../../User%20Guide/introduction#zoho-sync-button">User Guide &gt; Introduction &gt; Client Searches</a></p>
 
 
 
