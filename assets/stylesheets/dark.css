@@ -85,3 +85,11 @@ html, body, .wy-body-for-nav, .wy-nav-content-wrap, .wy-nav-content {
   color: #a0c8ff !important;
 }
 
+/* Make Mermaid SVGs expand to the full text width */
+.mermaid,
+.mermaid > svg {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+}
